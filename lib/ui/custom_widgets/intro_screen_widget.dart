@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mvvm_provider_template/core/constants/colors.dart';
 import 'package:mvvm_provider_template/core/extensions/sized_box.dart';
-import 'package:mvvm_provider_template/ui/Screens/authentications/signup_selection/signup_selection_screen.dart';
+import 'package:mvvm_provider_template/ui/Screens/dashboard/dashboard_screen.dart';
 
 import 'custom_button.dart';
 
@@ -38,7 +38,7 @@ class IntroPage extends StatelessWidget {
           15.ph,
           CustomGradientButton(
             onPressed: () {
-              Get.to(() => const SignupSelectionScreen());
+              Get.to(() => const DashBoardScreen());
             },
             name: 'Continue',
             gradientColors: const [kPrimaryColor, kDarkGreen],
