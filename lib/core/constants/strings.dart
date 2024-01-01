@@ -3,5 +3,5 @@ const package = '   flutter pub add firebase_core;flutter pub add firebase_auth;
 
 
 
-const appTitle = 'My app';
+const appTitle = 'MVVM Provider Template';
 const welcomeMsg = 'Welcome to Alfred';

@@ -26,24 +26,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
-      providers: [
-        // ChangeNotifierProvider(create: (_) => ProfileProvider()),
-
-      ],
-      child: GetMaterialApp(
-        title: appTitle,
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
-        initialRoute: initScreen == 0 || initScreen == null ? "/" : "home",
-        routes: {
-          '/': (context) => const IntroductionScreen(),
-          'home': (context) => const SplashScreen(),
-        },
-        debugShowCheckedModeBanner: false,
+    return GetMaterialApp(
+      title: appTitle,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
       ),
+      initialRoute: initScreen == 0 || initScreen == null ? "/" : "home",
+      routes: {
+        '/': (context) => const IntroductionScreen(),
+        'home': (context) => const SplashScreen(),
+      },
+      debugShowCheckedModeBanner: false,
     );
   }
 }

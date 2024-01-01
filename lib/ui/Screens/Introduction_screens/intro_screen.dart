@@ -96,7 +96,7 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
                     },
                   ),
                 ),
-                10.ph,
+                10.height,
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -112,7 +112,7 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
                       ),
                   ],
                 ),
-                30.ph,
+                30.height,
               ],
             ),
           ),

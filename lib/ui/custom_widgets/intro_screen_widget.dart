@@ -30,12 +30,12 @@ class IntroPage extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
           ),
-          5.ph,
+          5.height,
           Text(
             description,
             textAlign: TextAlign.center,
           ),
-          15.ph,
+          15.height,
           CustomGradientButton(
             onPressed: () {
               Get.to(() => const DashBoardScreen());

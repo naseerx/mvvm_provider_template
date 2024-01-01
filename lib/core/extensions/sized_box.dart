@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 extension PaddingHeight on num {
-  SizedBox get ph => SizedBox(
+  SizedBox get height => SizedBox(
         height: toDouble(),
       );
-  SizedBox get pw => SizedBox(
+  SizedBox get width => SizedBox(
         width: toDouble(),
       );
 }

@@ -91,13 +91,13 @@ class CustomSignUpButton extends StatelessWidget {
             )),
         child: Row(
           children: [
-            20.pw,
+            20.width,
             CircleAvatar(
               radius: 18,
               backgroundColor: kWhite,
               child: icon,
             ),
-            20.pw,
+            20.width,
             Text(name,
                 style: const TextStyle(
                   fontSize: 17,
